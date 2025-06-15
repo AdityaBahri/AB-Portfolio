@@ -4,17 +4,17 @@
     <div class="service-list">
       <div class="service-item">
         <h3>Website Design</h3>
-        <p>80+ Project</p>
+        <p>10+ Project</p>
         <span class="arrow">&rarr;</span>
       </div>
       <div class="service-item">
         <h3>Mobile App Design</h3>
-        <p>70+ Project</p>
+        <p>10+ Project</p>
         <span class="arrow">&rarr;</span>
       </div>
       <div class="service-item">
         <h3>UI/UX Consulting</h3>
-        <p>50+ Project</p>
+        <p>20+ Project</p>
         <span class="arrow">&rarr;</span>
       </div>
     </div>

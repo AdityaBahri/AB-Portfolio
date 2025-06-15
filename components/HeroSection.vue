@@ -6,20 +6,20 @@
       <p class="role">UI/UX Designer</p>
       <h1 class="name">Aditya Bahri</h1>
       <p class="description">
-        Interest in UI/UX Design
+        "Simplicity is the ultimate sophistication." - Leonardo da Vinci
       </p>
-      <button class="contact-button">Let's Talk</button>
+      <!-- <button class="contact-button">Let's Talk</button> -->
       <div class="stats">
         <div class="stat-item">
-          <span class="stat-number">3+</span>
+          <span class="stat-number">1+</span>
           <span class="stat-label">Years of Experience</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">220+</span>
+          <span class="stat-number">20+</span>
           <span class="stat-label">Complete Project</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">60+</span>
+          <span class="stat-number">10+</span>
           <span class="stat-label">Client</span>
         </div>
       </div>

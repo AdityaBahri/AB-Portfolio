@@ -1,6 +1,6 @@
 <template>
   <section class="portfolio-section">
-    <h2 class="section-title">Our Portofolio</h2>
+    <h2 class="section-title">My Portofolio</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
         <img src="/portfolio-1.jpg" alt="Project 1" />
