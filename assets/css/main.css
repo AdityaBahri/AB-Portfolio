@@ -1,0 +1,53 @@
+/* assets/css/main.css */
+body {
+  font-family: 'Poppins', sans-serif; /* Font utama aplikasi */
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d1a; /* Warna latar belakang keseluruhan */
+  color: #f0f0f0; /* Warna teks default */
+  line-height: 1.6;
+  overflow-x: hidden; /* Mencegah scroll horizontal yang tidak diinginkan */
+}
+
+/* Styling dasar untuk elemen HTML */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Reset Link Styles */
+a {
+  color: inherit; /* Mengambil warna teks dari parent */
+  text-decoration: none;
+}
+
+/* Optional: Scrollbar styling untuk tampilan yang lebih modern */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b2b41;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00bcd4; /* Warna scrollbar yang sesuai desain */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0097a7;
+}
+
+/* Global Utility Classes (Opsional, jika sering digunakan) */
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #00bcd4; /* Warna judul bagian */
+  text-align: center;
+}
