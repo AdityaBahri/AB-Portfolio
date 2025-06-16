@@ -154,7 +154,7 @@ const graph = {
       <h2>Kesimpulan</h2>
       <p>Algoritma Djikstra adalah alat yang sangat kuat dan esensial dalam kotak peralatan seorang programmer. Dengan memahami cara kerjanya, Anda tidak hanya belajar tentang teori graf, tetapi juga mendapatkan wawasan tentang bagaimana masalah optimasi rute dipecahkan dalam skala besar, dari internet hingga peta digital.</p>
     `,
-    author: "AI Assistant"
+    author: "by Admin on June 15, 2025"
   },
   'kahns-algorithm': {
     title: "Kahn's Algorithm",
@@ -225,7 +225,7 @@ function kahn(graph):
       <h2>Kesimpulan</h2>
       <p>Kahn's Algorithm adalah pendekatan yang elegan dan efisien untuk topological sorting, menjadikannya alat penting dalam skenario yang melibatkan ketergantungan tugas dan analisis graf.</p>
     `,
-    author: "AI Assistant"
+    author: "by Admin on June 15, 2025"
   },
   'depth-first-search-dfs': {
     title: "Depth-First Search (DFS)",
@@ -298,7 +298,8 @@ function DFS(graph, startNode):
 
       <h2>Kesimpulan</h2>
       <p>DFS adalah algoritma serbaguna yang ideal untuk tugas-tugas penjelajahan graf yang mendalam, terutama ketika menemukan jalur atau mendeteksi struktur tertentu.</p>
-    `
+      `,
+    author: "by Admin on June 15, 2025"
   },
   'breadth-first-search-bfs': {
     title: "Breadth-First Search (BFS)",
@@ -369,7 +370,9 @@ function BFS(graph, startNode):
 
       <h2>Kesimpulan</h2>
       <p>BFS adalah pilihan ideal ketika Anda perlu menemukan jalur terpendek dalam graf tak berbobot atau menjelajahi graf berdasarkan tingkat kedalaman.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
+
   },
   'rat-in-maze': {
     title: "Rat in Maze",
@@ -438,7 +441,9 @@ function isSafe(maze, x, y):
 
       <h2>Kesimpulan</h2>
       <p>Masalah Rat in Maze adalah pengantar yang sangat baik untuk algoritma backtracking, menunjukkan bagaimana kita dapat menjelajahi semua kemungkinan jalur dan kembali jika menemui jalan buntu.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
+
   },
   'subset-sum-problem': {
     title: "Subset Sum Problem",
@@ -520,7 +525,8 @@ function subsetSumBacktracking(set, targetSum, currentSum, index, path):
 
       <h2>Kesimpulan</h2>
       <p>Subset Sum Problem adalah masalah fundamental yang menunjukkan kekuatan pemrograman dinamis dan backtracking dalam menyelesaikan masalah kombinatorial yang kompleks.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
   },
   'n-queens-problem': {
     title: "N-Queens Problem",
@@ -597,7 +603,8 @@ function isSafe(board, row, col):
 
       <h2>Kesimpulan</h2>
       <p>Masalah N-Queens adalah teka-teki yang menarik yang dengan sempurna menggambarkan bagaimana backtracking dapat digunakan untuk secara sistematis menjelajahi ruang solusi untuk menemukan semua konfigurasi yang valid.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
   },
   'huffman-coding': {
     title: "Huffman Coding",
@@ -676,7 +683,8 @@ function generateHuffmanCodes(node, currentCode, codes):
 
       <h2>Kesimpulan</h2>
       <p>Huffman Coding adalah algoritma kompresi data fundamental yang masih relevan hingga saat ini karena efisiensi dan sifatnya yang lossless, membuatnya cocok untuk berbagai aplikasi kompresi file.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
   },
   'fractional-knapsack': {
     title: "Fractional Knapsack",
@@ -753,7 +761,8 @@ function fractionalKnapsack(items, capacity):
 
       <h2>Kesimpulan</h2>
       <p>Fractional Knapsack adalah contoh yang bagus tentang bagaimana algoritma serakah dapat menyelesaikan masalah optimasi tertentu secara optimal, menyoroti pentingnya memilih algoritma yang tepat untuk masalah yang tepat.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
   },
   'activity-selection-problem': {
     title: "Activity Selection Problem",
@@ -819,7 +828,8 @@ function activitySelection(activities):
 
       <h2>Kesimpulan</h2>
       <p>Activity Selection Problem adalah contoh klasik yang menunjukkan kekuatan dan keanggunan algoritma serakah dalam menyelesaikan masalah optimasi tertentu, menawarkan solusi optimal dengan cara yang sederhana dan efisien.</p>
-    `
+    `,
+    author: "by Admin on June 15, 2025"
   },
 };
 
