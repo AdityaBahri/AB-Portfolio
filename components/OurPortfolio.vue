@@ -1,52 +1,80 @@
 <template>
   <section class="portfolio-section">
-    <h2 class="section-title">My Portofolio</h2>
+    <h2 class="section-title">Articles</h2>
     <div class="portfolio-grid">
-      <div class="portfolio-item">
-        <img src="/portfolio-1.jpg" alt="Project 1" />
+      <!-- Menggunakan v-for untuk mengulang data artikel -->
+      <NuxtLink
+        v-for="article in articles"
+        :key="article.slug"
+        :to="`/articles/${article.slug}`"
+        class="portfolio-item"
+      >
+        <img :src="article.image" :alt="article.title" />
         <div class="overlay">
-          <h3>Vibe Music Mobile App</h3>
-          <p>Mobile App</p>
+          <h3>{{ article.title }}</h3>
+          <!-- <p>{{ article.category }}</p> Ini bisa ditambahkan jika ada kategori -->
         </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="/portfolio-2.jpg" alt="Project 2" />
-        <div class="overlay">
-          <h3>Streaming Mobile App</h3>
-          <p>Mobile App</p>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="/portfolio-3.jpg" alt="Project 3" />
-        <div class="overlay">
-          <h3>Creative Digital Agency</h3>
-          <p>Website</p>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="/portfolio-4.jpg" alt="Project 4" />
-        <div class="overlay">
-          <h3>Postbot Mobile App</h3>
-          <p>Mobile App</p>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="/portfolio-5.jpg" alt="Project 5" />
-        <div class="overlay">
-          <h3>Multimedia Design Prof.</h3>
-          <p>Graphic Design</p>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="/portfolio-6.jpg" alt="Project 6" />
-        <div class="overlay">
-          <h3>Parking Mobile App</h3>
-          <p>Mobile App</p>
-        </div>
-      </div>
+      </NuxtLink>
     </div>
   </section>
 </template>
+
+<script setup>
+// Data artikel yang akan ditampilkan di halaman portofolio
+// 'slug' akan digunakan untuk membuat URL dinamis
+const articles = [
+  {
+    title: "Djikstra's Algorithm",
+    slug: "dijkstras-algorithm", // Gunakan slug yang clean untuk URL
+    image: "/10.jpeg",
+  },
+  {
+    title: "Kahn's Algorithm",
+    slug: "kahns-algorithm",
+    image: "/9.jpeg",
+  },
+  {
+    title: "Depth-First Search (DFS)",
+    slug: "depth-first-search-dfs",
+    image: "/8.jpeg",
+  },
+  {
+    title: "Breadth-First Search (BFS)",
+    slug: "breadth-first-search-bfs",
+    image: "/7.jpeg",
+  },
+  {
+    title: "Rat in Maze",
+    slug: "rat-in-maze",
+    image: "/6.jpeg",
+  },
+  {
+    title: "Subset Sum Problem",
+    slug: "subset-sum-problem",
+    image: "/5.jpeg",
+  },
+  {
+    title: "N-Queens Problem",
+    slug: "n-queens-problem",
+    image: "/4.jpeg",
+  },
+  {
+    title: "Huffman Coding",
+    slug: "huffman-coding",
+    image: "/3.jpeg",
+  },
+  {
+    title: "Fractional Knapsack",
+    slug: "fractional-knapsack",
+    image: "/2.jpeg",
+  },
+  {
+    title: "Activity Selection Problem",
+    slug: "activity-selection-problem",
+    image: "/1.jpeg",
+  },
+];
+</script>
 
 <style scoped>
 .portfolio-section {
@@ -69,6 +97,9 @@
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  display: block; /* Agar link mengisi seluruh item */
+  text-decoration: none; /* Hapus garis bawah default link */
+  color: inherit; /* Warisi warna teks dari parent */
 }
 
 .portfolio-item img {

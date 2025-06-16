@@ -1,5 +1,6 @@
 <template>
   <section class="social-links-section">
+    <a href="https://github.com/AdityaBahri" target="_blank" class="social-icon">GitHub</a>
     <a href="https://dribbble.com/acee10" target="_blank" class="social-icon">Dribbble</a>
     <a href="https://instagram.com/adityabhri_" target="_blank" class="social-icon">Instagram</a>
     <a href="https://wa.me/6281341180174" target="_blank" class="social-icon">WhatsApp</a>
